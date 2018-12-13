@@ -1,6 +1,6 @@
 from keras import layers
 
-def fire_module(x,s_11,e_11,e_33):
+def fire_block(x,s_11,e_11,e_33):
     '''
      论文建议 s_11<e_11+e_33
     :param s_11:squeeze filter number
